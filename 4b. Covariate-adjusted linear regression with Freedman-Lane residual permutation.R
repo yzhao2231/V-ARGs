@@ -1,34 +1,6 @@
 # ============================================================
-# Fig. 4B — V-associated bulk–rhizosphere bacterial similarity
+# V-associated belowground (bulk–rhizosphere) bacterial similarity
 # ============================================================
-#
-# HOW TO USE
-# 1) Put this .R file in:
-#    C:/Users/lenovo/OneDrive/01 V-ARG submission20260527/01 Data analysis/fig 4b
-# 2) Keep the two source files somewhere under the same folder:
-#      - Soil geochemistry.xlsx
-#      - *asv.full.xls   (e.g. ASV_20240225_195022_asv.full.xls)
-# 3) Open this script in RStudio and Run All.
-#
-# OUTPUT
-# All results are written to:
-#    ./output/
-#
-# Main outputs:
-#    Fig4B_source_data.csv
-#    Fig4B_statistics.csv
-#    Fig4B_model_summary.txt
-#    Fig4B_similarity_vs_V.pdf
-#    Fig4B_similarity_vs_V.svg
-#    Fig4B_similarity_vs_V.png
-#
-# ANALYSIS
-# - Pairing:
-#     A1-x ↔ A2-x
-#     B1-x ↔ B2-x
-#     C1-x ↔ C2-x
-#   where "1" = rhizosphere and "2" = bulk soil.
-#
 # - Bray-Curtis similarity = 1 - Bray-Curtis distance
 # - Jaccard similarity     = 1 - binary Jaccard distance
 #
